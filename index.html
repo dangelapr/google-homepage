@@ -12,26 +12,29 @@
 
 <body>
     <!-- navbar -->
-    <div id="nav">
-        <ul>
+    <nav>
+        <ul class="flex-container">
             <li>About</li>
             <li>Store</li>
-            <li style="float: right;">D</li>
-            <li style="float: right;">dots</li>
-            <li style="float: right;">Images</li>
-            <li style="float: right;">Gmail</li>
+            <li>Gmail</li>
+            <li>Images</li>
+            <li>Dots</li>
+            <li>Icon</li>
         </ul>
-    </div>
-    
+    </nav>
 
     <!-- logo -->
-    <div>
+    <div class="flex-container" id="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="The Google logo">
     </div>
     
-    
-    <!-- search bar & buttons-->
-    <div id="buttons">
+    <div class="flex-container" id="searchBar">
+        <input type="text">
+    </div>
+
+
+    <!-- buttons-->
+    <div class="flex-container" id="buttons">
         <center>
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
@@ -40,19 +43,19 @@
     </div>
     
     <!-- footer -->
-    <div id="footer">
-        <ul>
+    <footer>
+        <ul class="flex-container">
             <li>Advertising</li>
             <li>Business</li>
             <li>How Search Works</li>
-            <li id="carbon">Carbon neutral since 2007</li>
-            <li style="float: right;">Settings</li>
-            <li style="float: right;">Terms</li>
-            <li style="float: right;">Privacy</li>
-            
-            
+            <li>Carbon neutral since 2007</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li> 
         </ul>
-    </div>
+    </footer>
+
+    
     
     
 </body>
