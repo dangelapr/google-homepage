@@ -12,14 +12,24 @@ body {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    padding: 0;
 }
 
 .flex-container #logo {
     align-items: center;
 }
 
+nav {
+    font-size: 14px;
+}
+
 li {
     list-style: none;
+    margin: 0 20px;
+}
+
+#two {
+    margin-right: 850px;
 }
 
 button {
@@ -32,10 +42,19 @@ button {
 
 footer {
     margin-top: auto;
+    padding-top: 15px;
+    background: #f2f2f2;
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+}
+
+#carbon {
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 275px;
 }
 
 #nav {
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -45,15 +64,19 @@ footer {
     height: 150px;
 }
 
-#searchBar {
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
+#search {
     margin-bottom: 20px;
 }
 
+#searchBar {
+    width: 550px;
+    line-height: 35px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
 #footer {
-    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: auto;
 }
